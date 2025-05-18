@@ -1,101 +1,81 @@
-Citizen Engagement System
+# Citizen Engagement System
+
 A modern web application for citizens to submit and track complaints about public services, with an admin interface for government officials to manage and respond to complaints.
 
-Author
-Habimana Happy Ntaganira
+## Author
 
-GitHub: https://github.com/Habimana06/MVP-for-a-Citizen-Complaints-and-Engagement-System
+**Habimana Happy Ntaganira**
+- https://github.com/Habimana06/MVP-for-a-Citizen-Complaints-and-Engagement-System/upload/main
 
-Email: hntaganira06@gmail.com
+- Email: hntaganira06@gmail.com
 
-Features
-Submit complaints with detailed information
+## Features
 
-Track complaint status
+- Submit complaints with detailed information
+- Track complaint status
+- Admin dashboard for managing complaints
+- Real-time status updates
+- Email notifications (coming soon)
+- Analytics dashboard (coming soon)
 
-Admin dashboard for managing complaints
+## Tech Stack
 
-Real-time status updates
+- Frontend: React with javascript
+- Backend: Node.js with Express
+- Styling: Tailwind CSS
+- Icons: Heroicons
 
-Email notifications (coming soon)
+## Prerequisites
 
-Analytics dashboard (coming soon)
+- Node.js (v14 or higher)
+- npm or yarn
 
-Tech Stack
-Frontend: React with JavaScript
+## Setup
 
-Backend: Node.js with Express
+1. Clone the repository
+2. Install frontend dependencies:
+   ```bash
+   cd citizen-engagement
+   npm install
+   ```
 
-Styling: Tailwind CSS
+3. Install backend dependencies:
+   ```bash
+   cd citizen-engagement/backend
+   npm install
+   ```
 
-Icons: Heroicons
+## Running the Application
 
-Database: PostgreSQL
+1. Start the backend server:
+   ```bash
+   cd citizen-engagement/backend
+   npm run dev
+   ```
 
-Prerequisites
-Node.js (v14 or higher)
+2. In a new terminal, start the frontend development server:
+   ```bash
+   cd citizen-engagement
+   npm run dev
+   ```
 
-npm 
+3. Open your browser and navigate to `http://localhost:5173`
 
-PostgreSQL
+## Development
 
-Setup
-Clone the repository:
+- Frontend code is in the `src` directory
+- Backend code is in the `backend` directory
+- API endpoints are documented in `server/index.ts`
 
-bash
-Copy code
-git clone https://github.com/Habimana06/MVP-for-a-Citizen-Complaints-and-Engagement-System.git
-Install frontend dependencies:
+## Contributing
 
-bash
-Copy code
-cd citizen-engagement
-npm install
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-Install backend dependencies:
 
-bash
-Copy code
-cd citizen-engagement/backend
-npm install
+## Support
 
-Running the Application
-Start the backend server:
-
-bash
-Copy code
-cd  citizen-engagement/backend
-npm run dev
-
-Start the frontend development server:
-
-bash
-Copy code
-cd citizen-engagement
-npm run dev
-
-Open your browser and navigate to:
-http://localhost:5173
-
-Development
-Frontend code: src/
-
-Backend code: backend/
-
-Environment variables: backend/.env
-
-Database connection is fully managed via .env file
-
-Contributing
-Fork the repository
-
-Create a feature branch
-
-Commit your changes
-
-Push to your branch
-
-Create a Pull Request
-
-Support
-For support, email hntaganira06@gmail.com or create an issue in the GitHub repository
+For support, email hntaganira06@gmail.com or create an issue in the repository. 
